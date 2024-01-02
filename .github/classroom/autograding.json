@@ -4,111 +4,71 @@
       "name": "Soal01a",
       "setup": "javac Soal01.java",
       "run": "java Soal01",
-      "input": "123 456 789 101 135",
-      "output": "123 valid\n456 tidak valid\n789 valid\n101 tidak valid\n135 valid",
+      "input": "5 20 2 4 6 8 10",
+      "output": "1 2 3 4\n4 barang, total berat 20",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal01b",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "6 20 6 8 10 2 1 4",
+      "output": "1 2 4 5\n4 barang, total berat 17",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Soal03",
+      "setup": "javac Soal03.java",
+      "run": "java Soal03",
+      "input": "3 P C P C P C P C P",
+      "output": "C P C P C P C P C",
       "comparison": "included",
       "timeout": 10,
       "points": 25
     },
     {
-      "name": "Soal03a",
-      "setup": "javac Soal03.java",
-      "run": "java Soal03",
-      "input": "18 30 15",
-      "output": "18:45",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 12
-    },
-	{
-      "name": "Soal03b",
-      "setup": "javac Soal03.java",
-      "run": "java Soal03",
-      "input": "8 30 45",
-      "output": "9:15",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 13
-    },
-    {
-      "name": "Soal02",
+      "name": "Soal02a",
       "setup": "javac Soal02.java",
       "run": "java Soal02",
-      "input": "6 3.52 450 Ada",
-      "output": "Cumlaude",
+      "input": "DIRA UDAH BELAJAR BUAT ASESMEN ALGORITMA BELUM I",
+      "output": "DIRI HIDI BILIJIR TIIB ISISMIN IMTIRIGLI BILIM",
       "comparison": "included",
       "timeout": 10,
-      "points": 7
+      "points": 10
     },
    {
       "name": "Soal02b",
       "setup": "javac Soal02.java",
       "run": "java Soal02",
-      "input": "7 3.52 450 Ada",
-      "output": "Sangat Memuaskan",
+      "input": "SEMOGA ASESMEN ALGORITMA SESI CODINGNYA SUKSES YA E",
+      "output": "SEMEGE NEMSESE ELGERETME ESES CEDENGNYE SESKES YE",
       "comparison": "included",
       "timeout": 10,
-      "points": 6
-    },
-    {
-      "name": "Soal02c",
-      "setup": "javac Soal02.java",
-      "run": "java Soal02",
-      "input": "6 3.52 450 Tidak Ada",
-      "output": "Sangat Memuaskan",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-   {
-      "name": "Soal02d",
-      "setup": "javac Soal02.java",
-      "run": "java Soal02",
-      "input": "7 3.0 450 Ada",
-      "output": "Memuaskan",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
+      "points": 15
     },
     {
       "name": "Soal04a",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
-      "input": "MGR 150",
-      "output": "8500000.0",
+      "input": "3 3 5",
+      "output": "363",
       "comparison": "included",
       "timeout": 10,
-      "points": 6
+      "points": 10
     },
     {
       "name": "Soal04b",
       "setup": "javac Soal04.java",
       "run": "java Soal04",
-      "input": "STF 170",
-      "output": "9450000.0",
+      "input": "32 2 4",
+      "output": "480",
       "comparison": "included",
       "timeout": 10,
-      "points": 6
-    },
-	  {
-      "name": "Soal04c",
-      "setup": "javac Soal04.java",
-      "run": "java Soal04",
-      "input": "TCH 160",
-      "output": "8750000.0",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 6
-    },
-	   {
-      "name": "Soal04d",
-      "setup": "javac Soal04.java",
-      "run": "java Soal04",
-      "input": "DRV 175",
-      "output": "9737000.0",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 7
+      "points": 15
     }
   ]
 }
